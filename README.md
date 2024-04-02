@@ -26,7 +26,7 @@ This repository contains a Flask-based backend API for image processing tasks us
 3. Run the Flask app:
 
     ```bash
-    streamlit app.py
+    streamlit run app.py
     ```
 
 ## Usage
@@ -44,16 +44,3 @@ Example:
 ```bash
 curl -X POST -F "file=@/path/to/your/image.jpg" http://localhost:5000/home
 
-
-Model Details
-The image detection model used in this project is a pre-trained Keras model. The model is trained on a dataset of various image classes and can predict the content of images with a certain level of accuracy.
-
-Contributing
-Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-This project is inspired by the need for a simple yet powerful API backend for image processing tasks.
-Special thanks to the creators and contributors of Flask, Streamlit, Keras, and other libraries used in this project.
